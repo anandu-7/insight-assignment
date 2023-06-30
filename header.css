@@ -1,0 +1,58 @@
+
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color:lightcoral;
+    position:relative;
+    height:120px;
+}
+.logo{
+    position:absolute;
+    left:0;
+    top:20px;
+    flex:1;
+}
+.logo-pic{
+    height:80px;
+}
+
+.login-search{
+    flex:1;
+    width:0;
+    background-color: lightblue;
+    display:flex;
+    position:absolute;
+    top:10px;
+    right:10px;
+    align-items:center;
+
+}
+
+.search-bar{
+    flex:1;
+    margin-left:10px;
+    height:30px;
+
+}
+
+.login-text,.aboutus-text{
+    flex:1;
+    min-width: 30pxf;
+
+}
+
+.menu{
+    display:flex;
+    position:absolute;
+    bottom:0;
+    right:10px;
+    background-color:greenyellow;
+    flex:1;
+}
+
+.menu button{
+    width:200px;
+    height:40px;
+    border-color: black;
+    margin-left:8px;
+}
